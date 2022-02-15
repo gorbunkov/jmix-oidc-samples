@@ -1,0 +1,24 @@
+.jmix
+
+keycloak/postgres/
+keycloak/kk_data/
+
+**/resources/application-dev.properties
+
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### IntelliJ IDEA ###
+.idea/*
+!.idea/encodings.xml
+*.iws
+*.iml
+*.ipr
+out/
+
+### VS Code ###
+.vscode/
+

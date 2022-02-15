@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JmixDataStoreSettingsManager">
+    <moduleSettings>
+      <entry key="jmix-oidc-samples.jmix-oidc-minimal-sample.main">
+        <ModuleSettings>
+          <option name="dataStoreOptions">
+            <map>
+              <entry key="main">
+                <value>
+                  <DataStoreSettings>
+                    <option name="generateDdlType" value="CREATE_AND_UPDATE" />
+                    <option name="supportedTypes">
+                      <option value="postgres" />
+                    </option>
+                  </DataStoreSettings>
+                </value>
+              </entry>
+            </map>
+          </option>
+        </ModuleSettings>
+      </entry>
+      <entry key="jmix-oidc-samples.jmix-oidc-simple-sample.main">
+        <ModuleSettings>
+          <option name="dataStoreOptions">
+            <map>
+              <entry key="main">
+                <value>
+                  <DataStoreSettings>
+                    <option name="generateDdlType" value="CREATE_AND_UPDATE" />
+                    <option name="supportedTypes">
+                      <option value="postgres" />
+                    </option>
+                  </DataStoreSettings>
+                </value>
+              </entry>
+            </map>
+          </option>
+        </ModuleSettings>
+      </entry>
+      <entry key="jmix-oidc-samples.jmix-oidc-user-sync-sample.main">
+        <ModuleSettings>
+          <option name="dataStoreOptions">
+            <map>
+              <entry key="main">
+                <value>
+                  <DataStoreSettings />
+                </value>
+              </entry>
+            </map>
+          </option>
+        </ModuleSettings>
+      </entry>
+    </moduleSettings>
+  </component>
+  <component name="JmixPluginProjectSettings">
+    <option name="savedDbProperties">
+      <list>
+        <SavedDbProperties>
+          <option name="databaseName" value="jmix-oidc-simple-sample" />
+          <option name="dbType" value="postgres" />
+          <option name="dbmsVersion" />
+          <option name="host" value="localhost" />
+          <option name="pass" value="root" />
+          <option name="url" value="jdbc:postgresql://localhost/jmix-oidc-simple-sample" />
+          <option name="user" value="root" />
+        </SavedDbProperties>
+        <SavedDbProperties>
+          <option name="databaseName" value="jmix-oidc-simple-sample" />
+          <option name="dbType" value="hsql" />
+          <option name="dbmsVersion" />
+          <option name="host" value="localhost" />
+          <option name="url" value="jdbc:hsqldb:hsql://localhost/jmix-oidc-simple-sample" />
+          <option name="user" value="sa" />
+        </SavedDbProperties>
+      </list>
+    </option>
+  </component>
+</project>

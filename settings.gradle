@@ -1,0 +1,5 @@
+rootProject.name = 'jmix-oidc-samples'
+
+include 'jmix-oidc-minimal-sample'
+include 'jmix-oidc-simple-sample'
+include 'jmix-oidc-user-sync-sample'
